@@ -1,0 +1,27 @@
+﻿Variable,Feature_Group,Description,Variable_Type,Encoding_Method,Missing_Percent
+SCD,Target,Subjective Cognitive Decline status,Binary,0/1 (Target),0.0
+SEXVAR,Demographic,Sex,Binary categorical,"Binary encoding: 0 = Male, 1 = Female",0.0
+_AGE80,Demographic,Age,Numerical,Standardization for Logistic Regression,0.0
+_RACEGR3,Demographic,Race and ethnicity,Nominal categorical,One-Hot Encoding,1.79
+_STATE,Demographic,State of residence,Nominal categorical,One-Hot Encoding,0.0
+EDUCA,Socioeconomic,Education level,Ordinal categorical,One-Hot Encoding,0.27
+INCOME3,Socioeconomic,Household income category,Ordinal categorical,One-Hot Encoding,17.95
+MARITAL,Socioeconomic,Marital status,Nominal categorical,One-Hot Encoding,0.6
+_BMI5CAT,Health,BMI category,Ordinal categorical,One-Hot Encoding,5.07
+DIABETE4,Health,Diabetes status,Categorical,One-Hot Encoding,0.13
+Depression_bin,Health,History of depressive disorder,Binary,Keep 0/1,0.34
+Stroke_bin,Health,History of stroke,Binary,Keep 0/1,0.34
+HighBP_bin,Health,High blood pressure,Binary,Keep 0/1,0.33
+_SMOKER3,Health Behavior,Smoking status,Categorical,One-Hot Encoding,0.67
+PhysicalActivity_bin,Health Behavior,Physical activity status,Binary,Keep 0/1,0.25
+ACEDEPRS_bin,ACE,Household member with depression or mental illness,Binary,Keep 0/1,0.0
+ACEDRINK_bin,ACE,Household member with alcohol problems,Binary,Keep 0/1,0.0
+ACEDRUGS_bin,ACE,Household member with drug problems,Binary,Keep 0/1,0.0
+ACEPRISN_bin,ACE,Household member incarcerated,Binary,Keep 0/1,0.0
+ACEDIVRC_bin,ACE,Parental divorce or separation,Binary,Keep 0/1,0.0
+ACEPUNCH_bin,ACE,Household violence,Binary,Keep 0/1,0.0
+ACEHURT1_bin,ACE,Physical abuse,Binary,Keep 0/1,0.0
+ACESWEAR_bin,ACE,Verbal abuse,Binary,Keep 0/1,0.0
+ACETOUCH_bin,ACE,Unwanted sexual touching,Binary,Keep 0/1,0.0
+ACETTHEM_bin,ACE,Being forced to touch someone sexually,Binary,Keep 0/1,0.0
+ACEHVSEX_bin,ACE,Being forced to have sex,Binary,Keep 0/1,0.0
